@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FlameWave Digital</title>
+    <style>
+        /* Estilos CSS para o banner */
+        .banner {
+            text-align: center;
+            background-color: #37205a;
+            color: #fff;
+            padding: 20px;
+        }
+
+        /* Estilos CSS para o logo */
+        .logo {
+            width: 200px; /* Largura da imagem do logo */
+            height: auto;
+        }
+
+        /* Estilos CSS para o conteúdo central */
+        .center-content {
+            text-align: center;
+            margin: 0 auto; /* Isso centralizará a div horizontalmente */
+            max-width: 800px; /* Defina a largura máxima da div, ajuste conforme necessário */
+        }
+
+        /* Estilos CSS para a lista de produtos (layout de grade) */
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr); /* Três colunas de largura igual */
+            gap: 20px; /* Espaço entre os produtos */
+        }
+
+        /* Estilos CSS para cada produto */
+        .product {
+            border: 1px solid #ccc;
+            padding: 10px;
+            text-align: center;
+        }
+
+        /* Estilos CSS para a imagem do produto (logo) */
+        .product img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Estilos CSS para o botão "Adicionar ao carrinho" */
+        .product-button {
+            display: block;
+            background-color: #007BFF;
+            color: #fff;
+            padding: 5px 10px;
+            text-decoration: none;
+            margin: 10px auto; /* Centraliza o botão horizontalmente e adiciona espaçamento */
+            width: 80%; /* Define uma largura para o botão */
+        }
+
+        /* Estilos CSS para a barra de direitos autorais */
+        .copyright-bar {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+        }
+
+        /* Estilos CSS para o espaço abaixo dos produtos */
+        .space-below-products {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="banner">
+        <!-- Coloque aqui o seu logo e o nome da loja -->
+        <img src="https://media.discordapp.net/attachments/1145485950865117306/1149525497710133248/Logotipo20Loja20Online.png?width=335&height=335" alt="Logo da Loja" class="logo">
+        <h1>Flame Wave Digital</h1>
+    </div>
+    <div class="center-content">
+        <h2>Bem-vindo à nossa loja!</h2>
+        <p>Transforme seus desejos em realidade. Comece a comprar agora!</p>
+        <!-- Layout de grade para os produtos -->
+        <div class="products-grid">
+            <div class="product">
+                <img src="https://media.discordapp.net/attachments/1145485950865117306/1149840588007551137/Post_minimalista_marketing_digital_roxo_branco_e_azul_1.png?width=479&height=479" alt="Produto 1">
+                <p>Cardápio do Bebê</p>
+                <p>R$ 57,00</p>
+                <a href="https://go.hotmart.com/A86589199M?ap=f511" class="product-button">Comprar Agora!</a>
+                <a href="cardapiobebe" class="product-button">Saiba mais!</a>
+            </div>
+            <div class="product">
+                <img src="https://media.discordapp.net/attachments/1145485950865117306/1149542716917690368/canva.png?width=479&height=479" alt="Produto 2">
+                <p>Curso Método - Canva Turbo</p>
+                <p>R$ 97,00</p>
+                <a href="https://go.hotmart.com/X86566386O" class="product-button">Comprar Agora!</a>
+                <a href="curso-canva" class="product-button">Saiba mais!</a>
+            </div>
+            <div class="product">
+                <img src="https://media.discordapp.net/attachments/1145485950865117306/1149545792172982402/estria.png?width=479&height=479" alt="Produto 3">
+                <p>Zero Estrias Método Americano 2023</p>
+                <p>R$ 47,00</p>
+                <a href="https://go.hotmart.com/X86566681T" class="product-button">Comprar Agora!</a>
+                <a href="ss" class="product-button">Saiba mais!</a>
+            
+            </div>
+            <!-- Adicione mais produtos aqui -->
+            <div class="product">
+                <img src="/static/produto4.png" alt="Produto 4">
+                <p>Produto 4</p>
+                <p>R$ 25.00</p>
+                <a href="#comprar4" class="product-button">Adicionar ao carrinho</a>
+            </div>
+            <div class="product">
+                <img src="/static/produto5.png" alt="Produto 5">
+                <p>Produto 5</p>
+                <p>R$ 30.00</p>
+                <a href="#comprar5" class="product-button">Adicionar ao carrinho</a>
+            </div>
+            <div class="product">
+                <img src="dd" alt="Produto 6">
+                <p>Produto 6</p>
+                <p>R$ 35.00</p>
+                <a href="#comprar6" class="product-button">Adicionar ao carrinho</a>
+            </div>
+        </div>
+        <!-- Espaço abaixo dos produtos -->
+        <div class="space-below-products"></div>
+    </div>
+    <!-- Barra de direitos autorais fixa no final da tela -->
+    <div class="copyright-bar">
+        &copy; 2023 FlameWave Digital. Todos os direitos reservados.
+    </div>
+</body>
+</html>
